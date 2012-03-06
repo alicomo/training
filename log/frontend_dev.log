@@ -1,0 +1,30 @@
+Mar 06 14:56:18 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 06 14:56:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 14:56:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 14:56:18 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 06 14:56:18 symfony [info] {sfPHPView} Render "/Users/shaduli/studies/training/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 06 14:56:18 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/studies/training/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 06 14:56:18 symfony [info] {sfPHPView} Render "/Users/shaduli/studies/training/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 06 14:56:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 14:56:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 14:56:18 symfony [info] {sfWebDebugLogger} Configuration 47.03 ms (9)
+Mar 06 14:56:18 symfony [info] {sfWebDebugLogger} Factories 51.02 ms (1)
+Mar 06 14:56:18 symfony [info] {sfWebDebugLogger} Action "default/index" 0.10 ms (1)
+Mar 06 14:56:18 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.06 ms (1)
+Mar 06 14:56:18 symfony [info] {sfWebResponse} Send content (29131 o)
+Mar 06 15:35:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'default',  'action' => 'index',)
+Mar 06 15:35:04 symfony [info] {myUser} Automatic user logout due to timeout
+Mar 06 15:35:04 symfony [info] {myUser} User is not authenticated
+Mar 06 15:35:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 06 15:35:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 06 15:35:04 symfony [info] {defaultActions} Call "defaultActions->executeIndex()"
+Mar 06 15:35:04 symfony [info] {sfPHPView} Render "/Users/shaduli/studies/training/lib/vendor/symfony/lib/controller/default/templates/indexSuccess.php"
+Mar 06 15:35:04 symfony [info] {sfPHPView} Decorate content with "/Users/shaduli/studies/training/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 06 15:35:04 symfony [info] {sfPHPView} Render "/Users/shaduli/studies/training/lib/vendor/symfony/lib/controller/default/templates/defaultLayout.php"
+Mar 06 15:35:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 06 15:35:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 06 15:35:04 symfony [info] {sfWebDebugLogger} Configuration 92.17 ms (9)
+Mar 06 15:35:04 symfony [info] {sfWebDebugLogger} Factories 35.56 ms (1)
+Mar 06 15:35:04 symfony [info] {sfWebDebugLogger} Action "default/index" 0.12 ms (1)
+Mar 06 15:35:04 symfony [info] {sfWebDebugLogger} View "Success" for "default/index" 5.20 ms (1)
+Mar 06 15:35:04 symfony [info] {sfWebResponse} Send content (29840 o)

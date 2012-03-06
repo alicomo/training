@@ -1,0 +1,19 @@
+Category:
+  actAs: { Timestampable: ~ }
+  columns:
+    name: {type: string(255), notblank: true }
+#post model
+Post:
+  actAs: { Timestampable: ~ }
+  columns:
+    title: {type: string(255), notblank: true }
+    body: {type: string(1000), notblank: true, minlength: 25 }
+    author: {type: string(255), notblank: true }
+    is_approved: {type: boolean, default: false }
+    category_id: {type: integer, notnull: true }
+  relations:
+    Category: { class: Category, local: category_id, foreign: id, type: one , foreignType: many, foreignAlias: Posts, onDelete: CASCADE  }
+    
+
+  
+  
